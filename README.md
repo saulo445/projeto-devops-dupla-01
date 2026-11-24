@@ -26,4 +26,4 @@ Os testes chamavam as rotas pelo cliente de teste do Flask, sem passar pela port
 
 **Saulo (aluno A, @saulo445):** Fiz o fluxo da página de status e conferi que a imagem podia ser baixada sem login no registro. Minha variação é a dupla `dupla-01`, com a mensagem `aprendendo DEVOPS` e a porta `5001`. Rodei os contêineres no Docker Desktop, confirmei a falha da v2 e voltei à v1 em 4,27 segundos. A reversão no repositório restaurou a porta original e a v3 voltou a responder.
 
-**Arthur (aluno B):** A completar pelo aluno B.
+**Arthur (aluno B, @artgmoura26-gif):** Configurou a publicação de imagens por tag e publicou a `v1`. Para simular a falha, alterou a porta da API de `5001` para `5002` e publicou a `v2`. O CI continuou passando, mas a verificação com Docker mostrou que a API ficou inacessível pela porta mapeada. A variação da dupla é `dupla-01`, com a mensagem `aprendendo DEVOPS` e a porta `5001`.
